@@ -26,7 +26,7 @@ BiocManager::install(
 )
 ```
 
-The original installer omits explicit installation of `downloader`, `rvest`, `GEOquery`, `enrichplot`, and the HDF5 reader dependency. See the [Bioconductor installation guide](https://bioconductor.org/install/) for R/package compatibility. Single-cell scripts use Seurat's [`Read10X_h5()`](https://satijalab.org/seurat/reference/read10x_h5) to read Cell Ranger HDF5 matrices.
+The original installer omits explicit installation of 'downloader', 'rvest', 'GEOquery', 'enrichplot', and the HDF5 reader dependency. See the [Bioconductor installation guide](https://bioconductor.org/install/) for R/package compatibility. Single-cell scripts use Seurat's [`Read10X_h5()`](https://satijalab.org/seurat/reference/read10x_h5) to read Cell Ranger HDF5 matrices.
 
 The shared analysis helper imports the modeling and visualization packages when sourced. Even a bulk-only run currently loads Seurat and other visualization dependencies.
 
