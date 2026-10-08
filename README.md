@@ -4,7 +4,6 @@
 
 ADGPS represents expression profiles as within-sample gene comparisons and uses LASSO logistic regression to distinguish Alzheimer's disease (AD) from non-AD controls (NC). This repository contains R scripts for data preparation, a bulk-only baseline, single-cell feature selection, transfer of selected pairs to bulk data, and visualization.
 
-This README documents [`final-code/`](final-code/). The scripts share objects through the R session and are intended for execution in analysis sections. Some variants require adjustments described under [Known implementation details](#known-implementation-details). The original Chinese guide is preserved in [README_zh.md](README_zh.md).
 
 ## Requirements and installation
 
