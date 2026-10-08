@@ -49,7 +49,7 @@ Bulk CSVs contain gene symbols in the first column and numeric expression values
 
 ### Download and preprocessing
 
-Run from the repository root, which contains `final-code/`, `data/`, and `results/`:
+Run from the repository root, which contains 'final-code/', 'data/', and 'results/':
 
 ```r
 stopifnot(dir.exists("final-code"))
@@ -158,5 +158,3 @@ saveRDS(
   file = "results/sc_bulk/ADGPS_model.rds"
 )
 ```
-
-This README was checked against the current source. Syntax inspection is separate from a complete analysis run; dependency installation, all-input download, and reproduction of every figure were not performed when preparing this documentation.
